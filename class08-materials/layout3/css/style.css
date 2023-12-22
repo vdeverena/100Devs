@@ -1,0 +1,103 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62,5;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header, section.feat{
+  float: left;
+}
+section.search{
+  width:40%;
+  float:left;
+  padding: 2rem 6rem 5rem 4rem;
+}
+section.mainimg{
+  width: 60%;
+  float: left;
+}
+main, header{
+  background: rgb(214, 209, 209);
+}
+section.info{
+  background: white;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header, h1, h2, h3, p, a{
+  color: rgb(2, 26, 39);
+}
+header{
+  padding: 2rem 4rem;
+}
+header li{
+  padding: 0 3rem;
+}
+header ul{
+  padding: 0 70%;
+}
+header a{
+  background: rgb(2, 26, 39);
+  color: white;
+  margin: 1rem 1rem;
+}
+main span{
+  color: rgb(151, 151, 151)
+}
+h1{
+  font-weight: 700;
+}
+main button{
+  width: 30%;
+  background: rgb(2, 26, 39);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+main input{
+  width: 70%;
+  background: rgb(199, 199, 199);
+}
+section.feat{
+  padding: 3rem 8rem 2rem 8rem;
+}
+main section div{
+  padding-right: 1rem;
+}
+main section div::after :last-of-type{
+  padding-right: 0;
+}
+h3, main div a{
+  font-weight: bold;
+}
+div p{
+  padding: 2rem 0;
+}
