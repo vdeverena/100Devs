@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    height: 100px;
+    border: 1px solid grey;
+    clear: both;
+}
+.full{
+    height: 150px;
+    clear: both;
+    border: 1px solid grey;
+}
+.smaller{
+    height: 250px;
+    width: 30%;
+    float: left;
+    border: 1px solid grey;
+}
+.bigger{
+    height: 250px;
+    width: 70%;
+    float: left;
+    border: 1px solid grey
+}
